@@ -1,7 +1,7 @@
 import {useEffect,useState} from 'react';
 import {motion,AnimatePresence,useScroll,useReducedMotion} from 'framer-motion';
 import {ShoppingBag,Leaf,Sparkles,Droplets,ShieldCheck,Sun,Play,X,Plus,Minus,Trash2,ChevronDown} from 'lucide-react';
-import {CONFIG as C} from './config.js';
+import {CONFIG as C} from '../config.js';
 
 const IMG='/images/genz-product.jpeg';
 const money=n=>n==null?'Price TBC':`${C.currency} ${n.toLocaleString()}`;
